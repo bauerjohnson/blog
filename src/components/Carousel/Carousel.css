@@ -1,0 +1,40 @@
+
+
+.Carousel  {
+    width: 70%; 
+    left: 25%;
+   box-sizing: border-box;
+    position: absolute;
+   height: auto;
+
+   top:35%;
+   
+
+}
+
+.Carousel img {
+    width: 70%;
+    height: auto;
+}
+
+
+@media (max-width : 500px) {
+    .Carousel  {
+    top: 75px;
+     
+   
+    }
+
+    
+    }
+
+
+
+
+/* .MDBCarouselInner {
+    padding-bottom: 50%;
+    width:50%;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+} */

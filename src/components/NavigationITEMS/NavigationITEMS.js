@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 import classes from './NavigationITEMS.css';
 import Navigationitem from '../NavigationITEMS/NavigationITEM';
@@ -6,9 +7,10 @@ import Navigationitem from '../NavigationITEMS/NavigationITEM';
 
 const navigationitems = (props) => (
     <ul className = {classes.navigationitems}>
-      <Navigationitem link = '/' active>LATEST</Navigationitem>
-       <Navigationitem link = '/'>MUSIC</Navigationitem>
-       <Navigationitem LINK = '/'>ENTERTAINMENT</Navigationitem>
+     
+     <Navigationitem> <NavLink to = '/' active>LATEST</NavLink></Navigationitem>
+     <Navigationitem>   <NavLink to = '/'>MUSIC</NavLink></Navigationitem>
+     <Navigationitem>  <NavLink to = '/'>ENTERTAINMENT</NavLink></Navigationitem>
     </ul>
 ); 
 
