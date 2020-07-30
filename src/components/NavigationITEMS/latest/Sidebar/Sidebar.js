@@ -18,7 +18,7 @@ const sidebar = (props) => {
 
 
 return (
-    <div className = {classes.sidebar}>
+    <div className = {classes.sidebar} style = {{width:props.width}}>
   <Card>
       <div className = {classes.header}>
        <span>sport</span>

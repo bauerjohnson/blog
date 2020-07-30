@@ -15,7 +15,7 @@
     max-width: 260px;
     position: absolute;
     left: 50%;
-    bottom: 5%;
+    bottom: 1px;
     
 }
 
@@ -23,7 +23,7 @@
     max-width: 260px;
     position: absolute;
     left: 50%;
-    top: 76%;
+    top: 80%;
     
 }
 
@@ -140,7 +140,7 @@
     }
 
     .word1{
-        top:70%;
+        top:65%;
 
     }
 
@@ -148,6 +148,10 @@
         top:65%;
     }
 
+    .containers {
+        padding-top: 50px;
+    }
+   
 }
 
 

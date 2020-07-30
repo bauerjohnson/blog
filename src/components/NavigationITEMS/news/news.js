@@ -1,10 +1,11 @@
 import React from 'react';
-import Carousel from '../../Carousel/Carousel';
-import classes from '../news/news.css';
+import Sidebar from '../latest/Sidebar/Sidebar';
 
-const news = () => (
-<div className = {classes.news}>
-    <Carousel/>
+
+
+const news = (props) => (
+<div>
+   <Sidebar width = {'100%'} />
 </div>
 );
 
