@@ -1,0 +1,58 @@
+.sidebar {
+    width: 27%;
+    background: white;
+}
+
+.header {
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    color: teal;
+}
+
+.barca {
+    width: 100%;
+}
+
+.barca img {
+    width: 100%;
+    height: 100%;
+}
+
+.sporttext {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    padding: 0;
+}
+
+.recentpost h3 {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.recentpostH {
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    
+}
+
+.recentpostH span {
+   font-size: 20px;
+   font-weight: 500;
+
+}
+
+.recentpost {
+    border-bottom: 1px solid #eee;  
+}
+
+.recentpost span {
+    font-size: 10px;
+    color: #6c6c66;
+}

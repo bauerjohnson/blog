@@ -1,7 +1,7 @@
 .Sidedrawer {
     position: fixed;
-    max-width: 70%;
-    height: auto;
+    max-width: 50%;
+    height: 100%;
     left: 0;
     top: 0;
     background-color: black;
@@ -10,6 +10,13 @@
     transition: transform 0.3s ease-out;
    z-index: 600;
 }
+
+.navigate {
+     position: absolute;
+     top: 50px;
+}
+
+
 
 
 

@@ -5,14 +5,17 @@ import Aux from '../../../hoc/Auxilliary';
 import Sidebar from './Sidebar/Sidebar';
 import classes from '../latest/latest.css';
 
-const latest = () => (
+const latest = (props) => {
+
+    console.log(props)
+ return (
   <div className = {classes.latest}> 
    <Aux>
-      
-<Blogpost />
+     
+<Blogpost {...props} />
 <Sidebar />
 </Aux>
 </div>
 );
-
+ }
 export default latest;

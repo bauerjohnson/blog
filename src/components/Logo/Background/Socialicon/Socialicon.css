@@ -1,0 +1,28 @@
+.socialhead {
+  position: absolute;
+  right: 40px;
+}
+
+.socialicons {
+    
+    display: flex;
+    list-style-type: none;
+   
+    color: white;
+    font-size: 16px;
+    
+
+}
+
+.socialicons li {
+    padding:0 8px;
+}
+
+
+@media (max-width : 500px) {
+    .word {
+        display: none;
+    }
+}
+
+

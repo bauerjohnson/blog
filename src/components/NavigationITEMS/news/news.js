@@ -1,7 +1,11 @@
 import React from 'react';
+import Carousel from '../../Carousel/Carousel';
+import classes from '../news/news.css';
 
 const news = () => (
-<div>news</div>
+<div className = {classes.news}>
+    <Carousel/>
+</div>
 );
 
 export default news;

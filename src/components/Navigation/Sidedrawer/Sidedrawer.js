@@ -6,6 +6,7 @@ import Logo from '../../Logo/Logo';
 import Navigationitems from '../../NavigationITEMS/NavigationITEMS';
 import Backdrop from '../../UI/Backdrop/Backdrop';
 import Aux from '../../../hoc/Auxilliary';
+import Social from '../../Logo/Background/Socialicon/Socialicon';
 
 
 const sidedrawer = (props) => {
@@ -20,7 +21,11 @@ const sidedrawer = (props) => {
             <Logo/>
      <nav className = {classes.navigate}>
 <Navigationitems/>
+
      </nav>
+    <div className = {classes.social}>
+    <Social />
+        </div> 
      
         </div>
         </Aux>

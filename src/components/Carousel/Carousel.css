@@ -1,13 +1,14 @@
 
 
 .Carousel  {
-    width: 70%; 
-    left: 25%;
+    width: 40%; 
+    left: 10%;
    box-sizing: border-box;
     position: absolute;
-   height: auto;
+   height: 40%;
+   bottom: 10%;
 
-   top:35%;
+   
    
 
 }
@@ -17,14 +18,25 @@
     height: auto;
 }
 
-
+.word {
+    color : red
+}
 @media (max-width : 500px) {
     .Carousel  {
-    top: 75px;
-     
-   
+    
+         position: absolute;
+         bottom: 40%;
+         width: 70%;
+         left: 10px;
+         
     }
-
+.word {
+    font-size: 14px;
+    display: block;
+    margin-top: 30px;
+    position: absolute;
+    left: 65px;
+}
     
     }
 

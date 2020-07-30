@@ -1,0 +1,158 @@
+.gallerypost {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container {
+    text-transform: lowercase;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.object1 {
+    max-width: 260px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    
+}
+
+.object2 {
+    max-width: 260px;
+    position: absolute;
+    left: 50%;
+    top: 76%;
+    
+}
+
+.object3 {
+    position: relative;
+    max-width: 60%;
+    width: 50%;
+    bottom:100px;
+}
+
+.box {
+    width: 260px;
+    height: 270px;
+    transition: .1s ease-in-out; 
+}
+
+.box:hover {
+    transform: scale(1.02);
+    display: flex;
+    
+}
+
+.img { width: 100%;
+
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+}
+
+.Sidebar {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+}
+
+.latestpost {
+    margin: 0;
+    text-align: center;
+    
+    margin-bottom: 10px;
+    
+}
+
+.latestpost header {
+   font-size: 50px;
+   font-weight: 500;
+   text-align: center;
+   position: relative;
+   border-bottom: 1px solid #eee;
+
+}
+  
+.containers {
+    display: flex;
+    flex-direction: column;
+}
+
+.more {
+    display:none;
+}
+
+.word2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 5%;
+    color:black;
+    text-decoration: underline;
+    left:15%;
+    font-weight: 600;
+    letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.word1 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    position: absolute;
+    font-weight: 600;
+    bottom:45%;
+    text-decoration: underline;
+    z-index: 300;
+    /* left: 5%; */
+
+}
+
+@media(max-width : 500px) {
+   /* .gallerypost {
+       width: 5%;
+       flex-flow: column;
+       
+   }  */
+.object1 {
+    position: absolute;
+    width: 70%;
+    top: 60%;
+    left: 7%;
+}
+    .object2{
+    left : 10%;
+    width: 40%;
+    padding-top: 75px;
+    }
+
+    .box {
+        width:100%;
+        
+    }
+
+    .word1{
+        top:70%;
+
+    }
+
+    .word2{
+        top:65%;
+    }
+
+}
+
+
+
+/* .word1{
+    position: absolute;
+    z-index: 200;
+} */

@@ -45,7 +45,7 @@
     .navigationitem a:hover,
     .navigationitem a:active,
     .navigationitem a.active {
-        background-color: aqua;
+        background-color: brown;
         border-bottom: 4px solid  #40adc8;
         color : white;
     }   

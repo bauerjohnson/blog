@@ -19,10 +19,15 @@ class Layout extends Component {
         })
     }
 
+drawerclickedhandler = () => {
+  this.setState( (prevState) => {
+      return {showsidedrawer: !prevState.showsidedrawer};
+});
+}
 render () {
 return (
     <Aux>
-    <Toolbar />
+    <Toolbar drawerclicked = {this.drawerclickedhandler}/>
     <Sidedrawer open = {this.state.showsidedrawer} closed = {this.sidedrawerhandler}/>
     <main className = {classes.Content}>
        {this.props.children}

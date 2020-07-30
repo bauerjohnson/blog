@@ -3,6 +3,7 @@
 .blogpost {
     width : 70%;
     font-family: 'Inconsolata', monospace;
+    padding: 0 20px;
 }
 
 .blogheader{
@@ -11,7 +12,50 @@
 
 .header{
     font-size: 30px;
-    transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.category {
+    font-size: 14px;
+    padding: 10px 0;
+    display: block;
+    font-weight: 400;
+}
+
+.blogdate {
+    font-size: 15px;
+    font-style: italic;
+    display: block;
+    color: #6c6c66;
+}
+
+.postimage1 {
+    width: 100%;
+}
+
+.postimage1 img {
+    max-width: 90%;
+    
+}
+
+.postcontent h3 {
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.postcontent {
+    margin: 0;
+}
+
+.postcontent p {
+    font-size: 14px;
+    color: darkslategray;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    padding : 20px;
 }
 

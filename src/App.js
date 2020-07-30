@@ -6,20 +6,26 @@ import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 
 import Layout from './components/Layouts/Layout';
 import Latest from './components/NavigationITEMS/latest/latest';
-import News from './components/NavigationITEMS/news/news';
-import Entertainment from './components/NavigationITEMS/entertainment/entertainment';
+import News from './components/NavigationITEMS/news/News';
+import Home from './components/NavigationITEMS/Home/Home';
 import Carousel from './components/Carousel/Carousel';
+import Socialicons from './components/Logo/Background/Socialicon/Socialicon';
+
 
 class App extends Component {
   render() {
     return (
       <Router>
+        <div className = {classes.desktop}>
+       <Socialicons />
+        </div>
       <div className = {classes.app}>
        <Layout>
-       <Route path = '/' exact component = {Latest} />
-        <Route path =  '/news' exact component = {News} />
-        <Route path =  '/entertainment'component = {Entertainment} />  
-        <Carousel />    
+       <Route path =  '/' exact component = {Home} />
+       <Route path = '/latest/:postId'exact component = {Latest} />
+        <Route path =  '/news'  component = {News} />
+          
+       
 
 
  </Layout>
